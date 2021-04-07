@@ -4,5 +4,8 @@
   "description": "experimental blog",
   "main": "index.js",
   "author": "Sarah Allen <sarah@ultrasaurus.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
 }
