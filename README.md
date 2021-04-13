@@ -1,6 +1,10 @@
 
+# 11ty test site
+
+This is just a sample blog / website to experiment with 11ty
 
 
+## Steps to re-create
 set up git repo, copy .gitignore from
  https://github.com/github/gitignore/blob/master/Node.gitignore
  plus 
@@ -27,6 +31,8 @@ or preview...
 ```
 npx @11ty/eleventy --serve
 ```
+
+## Notes
 
 Mustache because
 https://css-tricks.com/killer-features-of-nunjucks/
