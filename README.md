@@ -40,3 +40,6 @@ https://24ways.org/2018/turn-jekyll-up-to-eleventy/
 * "Whereas Jekyll uses the declarative YAML syntax for its configuration file, Eleventy uses JavaScript." ```.eleventy.js```
 * excludes files in `.eleventyignore` (in addition to `.gitignore`)
 * By default, Eleventy uses [markdown-it](https://github.com/markdown-it/markdown-it) to parse Markdown. If your content uses advanced syntax features (such as abbreviations, definition lists and footnotes), you’ll need to pass Eleventy an instance of this (or another) Markdown library configured with the relevant options and plugins, see [11ty markdown options](https://www.11ty.dev/docs/languages/markdown/)
+
+
+borrowed post & base template inspiration from [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog/blob/master/_includes/layouts/post.njk)

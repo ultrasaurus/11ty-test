@@ -1,4 +1,8 @@
 module.exports = function (eleventyConfig) {
+    // Alias `layout: post` to `layout: layouts/post.njk`
+    eleventyConfig.addLayoutAlias("post", "layouts/post.liquid");
+    eleventyConfig.addLayoutAlias("base", "layouts/base.liquid");
+
     return {
         dir: {
             input: "./src",   // source files
