@@ -1,5 +1,5 @@
 ---
-layout: layout.liquid
+layout: layout-base.liquid
 title: Welcome to my blog
 ---
 
