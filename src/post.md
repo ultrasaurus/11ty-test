@@ -1,6 +1,9 @@
 ---
 layout: layout.liquid
+title: Sample Post
 ---
-# title
+some text goes here
 
-some text
+* apples
+* bananas
+* tulips

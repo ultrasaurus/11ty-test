@@ -17,9 +17,16 @@ then on command line...
 ```
 yarn init 
 yarn add @11ty/eleventy
-npx @11ty/eleventy
 ```
 
+to generate the site:
+```
+npx @11ty/eleventy
+```
+or preview...
+```
+npx @11ty/eleventy --serve
+```
 
 Mustache because
 https://css-tricks.com/killer-features-of-nunjucks/
